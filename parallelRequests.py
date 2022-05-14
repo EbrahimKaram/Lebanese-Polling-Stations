@@ -2,7 +2,7 @@ import concurrent.futures
 import requests
 
 # potential_IDs = range(52693, 1000000000000)
-potential_IDs = range(374751, 600000)
+potential_IDs = range(432723, 600000)
 url = "https://www.dgcs.gov.lb/PollingStations/GetPollingStationExpat"
 
 
