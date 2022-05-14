@@ -96,3 +96,6 @@ We would only need 20000 minutes.
 That's only 13 days.
 
 We need to try to amp this up a bit more.
+
+We got (460-158) 302 readings in
+5932.092s (100 minutes)
