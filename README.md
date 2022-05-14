@@ -99,3 +99,6 @@ We need to try to amp this up a bit more.
 
 We got (460-158) 302 readings in
 5932.092s (100 minutes)
+
+Half a million requests were done in 3 hours and a half (500,000 to one million)
+12137.335s
