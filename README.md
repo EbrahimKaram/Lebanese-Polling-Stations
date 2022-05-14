@@ -102,3 +102,4 @@ We got (460-158) 302 readings in
 
 Half a million requests were done in 3 hours and a half (500,000 to one million)
 12137.335s
+In that time we got 412 more IDs
