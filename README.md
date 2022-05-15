@@ -110,9 +110,18 @@ I did histogram of the ids we have so far and it seemed pretty much uniformly di
 
 ### Getting the poll stations
 I'm getting the poll stations from the IDs I have so far.
-I might need to do rewrite to have some threading or to know how many expats where registered to each polling station.
+The code that did it was `getPollStations.py`
+Check CSV labeled `PollingStations.csv`.
+
+Stretch Goals for later:
+* Make the code run faster with threading
+* Change the database so I can know in the future how many expats where in each polling location
+
+I might need to do rewrite to have some threading to
 This data was just from the 3623 IDs I got of expats that were living abroad
 
 # The Map
 You can check the active map of where these locations are in the link below
 https://www.google.com/maps/d/u/0/edit?mid=1HcUrGODKaouXjKGmtGkHgwV5U98Qnnzf&usp=sharing
+
+I'm not sure if this is the full list of polling locations. If you know of a polling station that isn't on the list please let me know.
