@@ -103,3 +103,9 @@ We got (460-158) 302 readings in
 Half a million requests were done in 3 hours and a half (500,000 to one million)
 12137.335s
 In that time we got 412 more IDs
+
+### What is the distribution of National IDs
+I presume not all numbers are present. After checking 2 million IDs we have only around 2200 valid ids.
+I did histogram of the ids we have so far and it seemed pretty much uniformly distributed.
+
+### Getting the poll stations
