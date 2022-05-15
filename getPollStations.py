@@ -4,6 +4,7 @@ import requests
 if __name__ == '__main__':
     url = "https://www.dgcs.gov.lb/PollingStations/GetPollingStationExpat"
     id_csv_locaiton = "Valid National ID_backup.csv"
+    # the last size was 3623. From that we got 438 locations
 
     df_ids = pd.read_csv(id_csv_locaiton)
 
