@@ -79,6 +79,8 @@ Now according to the link below I can do `2 * multiprocessing.cpu_count() + 1`
 I have an 8 core machine so I can go as much as 17 workers
 https://rednafi.github.io/digressions/python/2020/04/21/python-concurrent-futures.html
 
+The code that actually implements threading is `parallelRequests.py`
+
 ### How Long will this take
 The national ID is a 12 digit number. It is a hundred billion number.
 My current strategy is to check every number and see if it is valid.

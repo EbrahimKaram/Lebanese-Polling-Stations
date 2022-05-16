@@ -12,8 +12,9 @@ if __name__ == '__main__':
 
     # polling_station_df = pd.DataFrame()
     dfs = []
-    i=1
-    for id in df_ids["National ID"]:
+    start_index=3623
+    i=start_index
+    for id in df_ids["National ID"][start_index:]:
         id_txt = str(id).zfill(12)
         myobj = {'Type': 'IDNumber', 'IDNumber': id_txt}
         x = requests.post(url, data=myobj)
@@ -30,5 +31,5 @@ if __name__ == '__main__':
     polling_station_df.drop_duplicates(inplace=True)
     polling_station_df.replace("", float("NaN"), inplace=True)
     polling_station_df.dropna(how='all', axis=1, inplace=True)
-    polling_station_df.to_csv("PollingStations.csv",
+    polling_station_df.to_csv("PollingStations1.csv",
                               index=False, encoding="utf-8")
